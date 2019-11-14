@@ -1,0 +1,53 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/appback"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <EditText
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/user_email"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_margin="40dp"></EditText>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:padding="10dp"
+        android:id="@+id/main_cb_id"></CheckBox>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="@color/colorPrimary"
+
+        android:id="@+id/login"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User!! Register Now"
+        android:padding="30dp"
+        android:id="@+id/textbox"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_id"
+        android:text="Forgot Password!! Click Here"></TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prbar"
+        android:padding="20dp"
+        ></ProgressBar>
+</LinearLayout>
